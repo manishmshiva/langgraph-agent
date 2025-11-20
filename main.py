@@ -32,3 +32,5 @@ with open("flow.png", "wb") as f:
 
 if __name__ == "__main__":
     print("Hello react langgraph with function calling...")
+    res = app.invoke({"messages":HumanMessage(content="What is the temperature in Tokyo? List it and then triple it.")})
+    print(res["messages"][LAST].content)
