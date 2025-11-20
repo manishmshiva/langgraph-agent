@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "langgraph-react"
+version = "0.1.0"
+description = ""
+authors = ["Manish Shivanandhan <manish@manalath.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^1.0.8"
+langchain-openai = "^1.0.3"
+langchain-tavily = "^0.2.13"
+langgraph = "^1.0.3"
+python-dotenv = "^1.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
